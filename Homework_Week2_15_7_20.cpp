@@ -23,6 +23,6 @@ void main(){
 	cout << "Your name = " << firstname << " " << lastname << endl;
 	cout << "Total Revenue " << total << " Bath" << endl;
 	cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
-
+	// Chitsanuphong Chaihong 6306021621138
 	system("pause");
 }
