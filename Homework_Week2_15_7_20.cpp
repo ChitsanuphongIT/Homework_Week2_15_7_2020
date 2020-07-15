@@ -4,12 +4,12 @@ using namespace std;
 
 void main(){
 
-	string fullname, lastname;
+	string firstname, lastname;
 	short salary, sale, percent, total;
 
 	cout << "****Homework 2************" << endl;
 	cout << "Enter Name : ";
-	cin >> fullname >> lastname;
+	cin >> firstname >> lastname;
 	cout << "Enter Salary : ";
 	cin >> salary;
 	cout << "Enter Sale : ";
@@ -20,7 +20,7 @@ void main(){
 	total = (sale*percent/100)+salary;
 
 	cout << "- - - - - -output - - - - - - - - - -" << endl;
-	cout << "Your name = " << fullname << " " << lastname << endl;
+	cout << "Your name = " << firstname << " " << lastname << endl;
 	cout << "Total Revenue " << total << " Bath" << endl;
 	cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
 
